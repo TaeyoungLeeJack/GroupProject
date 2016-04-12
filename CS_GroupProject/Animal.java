@@ -1,5 +1,5 @@
 public class Animals{
-  enum Gender {Male,Female};
+ public enum Gender {Male,Female};
   
   private Gender gender;
   private boolean able;

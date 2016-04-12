@@ -1,6 +1,5 @@
 public class Walk extends Animals{
   
-  public enum 
   
   private int leg;
   private int size;
