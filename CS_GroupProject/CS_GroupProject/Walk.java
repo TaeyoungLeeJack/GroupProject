@@ -1,6 +1,5 @@
-public class Walk extends Animals{
+public class Walk extends Animal{
   
-  public enum 
   
   private int leg;
   private int size;
@@ -9,4 +8,6 @@ public class Walk extends Animals{
    super(gender, able, age, name);
    this.leg=leg;
    this.size=size;}
+  public void intro(){
+System.out.println("Hello. My name is "+ this.getName() + ". I have legs!!!"); }
 }

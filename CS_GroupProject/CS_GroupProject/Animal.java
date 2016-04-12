@@ -1,12 +1,12 @@
-public class Animals{
-  enum Gender {Male,Female};
+public class Animal{
+ public enum Gender {Male,Female};
   
   private Gender gender;
   private boolean able;
   private int age;
   private String name;
   
-  public Animals{Gender gender, boolean able, int age, String name){
+  public Animal{Gender gender, boolean able, int age, String name){
   this.gender=gender;
   this.able= able;
   this.age=age;

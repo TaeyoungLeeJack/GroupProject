@@ -1,4 +1,4 @@
-public class Bird extends Animals{
+public class Bird extends Animal{
   
   
   private int wing;
